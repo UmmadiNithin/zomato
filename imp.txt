@@ -1,0 +1,12 @@
+If you want to push your local main branch into GitHub's master branch, the command is:
+
+git push origin main:master
+
+
+
+5. Remember this important rule
+Command	What gets pushed
+git push origin master	Local master → GitHub master
+git push origin main	Local main → GitHub main
+git push origin main:master	Local main → GitHub master
+
